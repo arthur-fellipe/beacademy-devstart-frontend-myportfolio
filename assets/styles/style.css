@@ -198,6 +198,7 @@ header .container nav .menu-social img:hover {
 .s-about .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .s-about .container .about-me {
