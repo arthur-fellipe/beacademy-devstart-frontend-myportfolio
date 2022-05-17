@@ -10,9 +10,9 @@
     type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700;800;900&family=Poppins:wght@400;700&display=swap"
-    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700;800;900&family=Poppins:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/styles/reset.css" />
   <link rel="stylesheet" href="./assets/styles/pattern.css" />
   <link rel="stylesheet" href="./assets/styles/style.css" />
@@ -158,16 +158,14 @@
         <div class="title-cases">
           <h2>CASES<span>.</span></h2>
         </div>
-        <div class="cases">
-          <div class="case">
-            <img src="./assets/img/case1.jpg" alt="Case 1" />
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="./assets/img/case1.jpg" alt="Case 1" /></div>
+            <div class="swiper-slide"> <img src="./assets/img/case2.jpg" alt="Case 2" /></div>
+            <div class="swiper-slide"> <img src="./assets/img/case3.jpg" alt="Case 3" /></div>
           </div>
-          <div class="case">
-            <img src="./assets/img/case2.jpg" alt="Case 2" />
-          </div>
-          <div class="case">
-            <img src="./assets/img/case3.jpg" alt="Case 3" />
-          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
       </div>
     </section>
@@ -210,6 +208,7 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="./assets/js/main.js"></script>
 </body>
