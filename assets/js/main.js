@@ -42,3 +42,26 @@ for (const link of links) {
     nav.classList.remove("show");
   });
 }
+
+var swiper = new Swiper(".swiper", {
+  loop: true,
+  spaceBetween: 30,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+});
+/*
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+});*/

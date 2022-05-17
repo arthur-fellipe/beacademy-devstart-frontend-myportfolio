@@ -37,9 +37,11 @@ header .container nav .menu-social {
   margin-left: 4rem;
   gap: 3.4rem;
 }
+
 header .container nav .menu-social img {
   transition: all 0.2s;
 }
+
 header .container nav .menu-social img:hover {
   filter: brightness(90%);
   transform: translateY(-5%);
@@ -219,9 +221,11 @@ header .container nav .menu-social img:hover {
   gap: 1.6rem;
   margin-top: 3.2rem;
 }
+
 .s-about .container .about-me ul li a img {
   transition: all 0.2s;
 }
+
 .s-about .container .about-me ul li a img:hover {
   transform: translateY(-12%);
   filter: brightness(80%);
@@ -241,29 +245,32 @@ header .container nav .menu-social img:hover {
   display: flex;
   flex-direction: column;
 }
+
 .s-cases .container .title-cases {
   margin-bottom: 7.3rem;
 }
 
-.s-cases .container .cases {
+.s-cases .container .swiper {
   display: flex;
   width: 100%;
-  gap: 1.4rem;
+  margin: auto;
   justify-content: center;
   align-items: center;
 }
 
-.s-cases .container .cases .case:nth-child(2) {
-  margin-top: -1.2rem;
-}
-
-.s-cases .container .cases img {
+.s-cases .container .swiper-wrapper img {
   border-radius: 0.4rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 
-.s-cases .container .cases img:hover {
+.s-cases .container .swiper-wrapper .swiper-slide {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.s-cases .container .swiper-wrapper img:hover {
   transform: translateY(-2%);
 }
 
@@ -291,9 +298,11 @@ header .container nav .menu-social img:hover {
 .s-contact .container .form-contact .input-group input[type="text"] {
   margin-bottom: 3.1rem;
 }
+
 .s-contact .container .form-contact .input-group textarea {
   margin-bottom: 0;
 }
+
 .input-button {
   width: 100%;
   display: flex;
