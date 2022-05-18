@@ -94,10 +94,6 @@
     display: inline-block;
   }
 
-  header .container .logo img {
-    width: 8.4rem;
-  }
-
   header .container nav {
     opacity: 0;
     visibility: hidden;
